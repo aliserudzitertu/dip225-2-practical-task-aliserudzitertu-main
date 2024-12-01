@@ -1,6 +1,6 @@
 import pandas as pd
 
-region_name = input("Ievadiet reģiona nosaukumu: ")
+region_name = input()
 
 description_file = "description.xlsx"
 description_data = pd.read_excel(description_file, sheet_name="LookupAREA")
